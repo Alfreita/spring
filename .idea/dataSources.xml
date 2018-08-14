@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="spring@localhost" uuid="0743b366-b95b-4fd5-824a-d5cec146aad0">
+    <data-source source="LOCAL" name="listavip@localhost" uuid="5bc1c264-9a45-4bce-b4c7-4783814a1f92">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/spring</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/listavip</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

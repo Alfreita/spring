@@ -15,7 +15,7 @@
                 <th>Email</th>
                 <th>telefone</th>
             </tr>
-            </thead>
+            </thead><!-- isso é a engine do thymeleaf que faz o bind entre o objeto e o valor dele , e intera o objeto-->
             <tr th:each="convidado : ${convidados}">
                 <td> <span th:text="${convidado.nome}"></span> </td>
                 <td> <span th:text="${convidado.email}"></span> </td>

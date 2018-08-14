@@ -21,7 +21,7 @@ public class ConvidadoController {
         return "index";
     }
 
-    @RequestMapping("listaconvidados")
+    @RequestMapping("listavip")
     public String listadeconvidados(Model model){
 
         Iterable<Convidado> convidados = repository.findAll();
