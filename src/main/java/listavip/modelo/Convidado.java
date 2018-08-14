@@ -13,6 +13,18 @@ public class Convidado {
     private String telefone;
     private String email;
 
+
+    public Convidado(){
+        /**
+         * esse construtor serve apenas para o hibernate, por esse motivo não deve ser usado
+         */
+    }
+    public Convidado(String nome, String email,String telefone) {
+        this.nome = nome;
+        this.telefone = telefone;
+        this.email = email;
+    }
+
     public long getId() {
         return id;
     }

@@ -833,7 +833,7 @@
     </column>
     <column id="209" parent="206" name="telefone">
       <Position>3</Position>
-      <DataType>varchar(12)|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="210" parent="206" name="email">
