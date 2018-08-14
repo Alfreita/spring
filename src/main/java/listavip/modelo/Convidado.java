@@ -11,6 +11,7 @@ public class Convidado {
     private long id;
     private String nome;
     private String telefone;
+    private String email;
 
     public long getId() {
         return id;
@@ -36,7 +37,11 @@ public class Convidado {
         this.telefone = telefone;
     }
 
+    public String getEmail() {
+        return email;
+    }
 
-
-
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }

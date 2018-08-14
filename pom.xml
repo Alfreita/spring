@@ -13,13 +13,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>1.4.1.RELEASE</version>
+            <version>1.4.2.RELEASE</version>
         </dependency>
     <!-- Engine de associação -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>1.4.1.RELEASE</version>
+            <version>1.4.2.RELEASE</version>
         </dependency>
     <!-- Dependencia do Spring boot Data-->
         <dependency>
