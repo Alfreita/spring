@@ -1,6 +1,6 @@
-package repository;
+package listavip.repository;
 
-import modelo.Convidado;
+import listavip.modelo.Convidado;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ConvidadoRepository extends CrudRepository<Convidado,Long> {

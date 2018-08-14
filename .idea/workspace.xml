@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="77bbbab5-45f6-4fae-8373-d87a5380773f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Convidado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ConvidadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listavip/Configuracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listavip/Configuracao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listavip/ConvidadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listavip/ConvidadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listavip/Configuracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listavip/conf/Configuracao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listavip/ConvidadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listavip/conf/ConvidadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Convidado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listavip/modelo/Convidado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ConvidadoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listavip/repository/ConvidadoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/listaconvidados.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listaconvidados.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +25,36 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="spring@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="spring@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="spring@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="spring: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="806506445">
@@ -61,19 +100,60 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
+    <session id="-1534647006">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="125" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="125" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="XML" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="java" value="1" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="1" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -83,38 +163,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/listavip/Configuracao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listavip/conf/Configuracao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/listavip/ConvidadoController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listavip/conf/ConvidadoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/ConvidadoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="434">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,24 +189,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/modelo/Convidado.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listavip/repository/ConvidadoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listavip/modelo/Convidado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,12 +242,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/llistaconvidados.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/listavip/Configuracao.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/ConvidadoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html" />
         <option value="$PROJECT_DIR$/src/main/java/modelo/Convidado.java" />
         <option value="$PROJECT_DIR$/src/main/java/listavip/ConvidadoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html" />
+        <option value="$PROJECT_DIR$/src/main/java/listavip/Configuracao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/listavip/conf/Configuracao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listavip/conf/ConvidadoController.java" />
       </list>
     </option>
   </component>
@@ -198,7 +266,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -209,7 +277,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,22 +318,6 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modelo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="listavip" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="listavip" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,21 +336,14 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="listavip" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -306,8 +353,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533923199030" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534109836896" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -320,6 +367,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -331,23 +383,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Configuracao">
     <configuration name="Configuracao" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
+      <module name="listavip" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listavip.*" />
+          <option name="PATTERN" value="listavip.conf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="listavip.Configuracao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="listavip.conf.Configuracao" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Configuracao" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="listavip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listavip.conf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="listavip.conf.Configuracao" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Configuracao" />
+      <item itemvalue="Spring Boot.Configuracao (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Configuracao" />
+        <item itemvalue="Spring Boot.Configuracao (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,17 +433,19 @@
       <updated>1533908130310</updated>
       <workItem from="1533908133056" duration="1462000" />
       <workItem from="1533909812102" duration="7679000" />
+      <workItem from="1533935470912" duration="2792000" />
+      <workItem from="1534083004981" duration="1212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9141000" />
+    <option name="totallyTimeSpent" value="13145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -381,7 +453,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -393,21 +465,23 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286334" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,7 +489,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.329718" />
@@ -427,15 +501,17 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286334" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -451,6 +527,51 @@
     <entry file="file://$PROJECT_DIR$/spring.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0743b366-b95b-4fd5-824a-d5cec146aad0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listavip/repository/ConvidadoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listavip/modelo/Convidado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -461,80 +582,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listavip/Configuracao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/modelo/Convidado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/ConvidadoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listavip/ConvidadoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listaconvidados.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="282">
+          <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listavip/conf/Configuracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listavip/conf/ConvidadoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,12 +670,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring</last-edited>
+          <last-edited>Spring|listavip</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -604,6 +683,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: ch.qos.logback:logback-classic:1.1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

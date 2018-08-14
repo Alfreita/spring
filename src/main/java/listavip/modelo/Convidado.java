@@ -1,4 +1,4 @@
-package modelo;
+package listavip.modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,6 +10,7 @@ public class Convidado {
     @GeneratedValue
     private long id;
     private String nome;
+    private String telefone;
 
     public long getId() {
         return id;
@@ -35,7 +36,7 @@ public class Convidado {
         this.telefone = telefone;
     }
 
-    private String telefone;
+
 
 
 }
