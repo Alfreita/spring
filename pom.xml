@@ -58,7 +58,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <fork>true</fork>
-                    <mainClass>br.com.victor.enviadorEmail.enviadorEmail.EnviadorEmailApplication</mainClass>
+                    <mainClass>listavip.Configuracao</mainClass>
                 </configuration>
                 <executions>
                     <execution>
@@ -74,7 +74,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>br.com.victor.enviadorEmail.enviadorEmail.EnviadorEmailApplication</mainClass>
+                            <mainClass>listavip.Configuracao</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
