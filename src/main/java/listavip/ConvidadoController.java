@@ -1,5 +1,6 @@
 package listavip;
 
+import br.com.victor.enviadorEmail.enviadorEmail.EmailService;
 import listavip.modelo.Convidado;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -35,6 +36,8 @@ public class ConvidadoController {
 
         Convidado novoConvidado = new Convidado(nome, email, telefone);
         repository.save(novoConvidado);
+
+         new EmailService().enviar(nome,email);
 
         Iterable<Convidado> convidados = repository.findAll();
         model.addAttribute("convidados", convidados);
