@@ -1,6 +1,6 @@
 package listavip;
 
-import br.com.victor.enviadorEmail.enviadorEmail.EmailService;
+import br.com.victor.enviadorEmail.enviadorEmail.*;
 import listavip.modelo.Convidado;
 import listavip.service.ConvidadoService;
 import org.springframework.beans.factory.annotation.Autowired;

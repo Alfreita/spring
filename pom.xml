@@ -43,7 +43,7 @@
         </dependency>
 
         <dependency>
-            <groupId>br.com.victor.enviadorEmail</groupId>
+            <groupId>br.com.victor.enviadorEmail </groupId>
             <artifactId>enviadorEmail</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

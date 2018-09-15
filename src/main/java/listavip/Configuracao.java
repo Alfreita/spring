@@ -19,9 +19,9 @@ public class Configuracao {
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/listavip");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/spring");
         dataSource.setUsername("root");
-        dataSource.setPassword("padtec");
+        dataSource.setPassword("");
         return dataSource;
     }
 }
